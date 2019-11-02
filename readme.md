@@ -89,5 +89,8 @@ docker run hello-world
 start with linux
 sudo systemctl enable docker
 
-#todo
-add steps for disable middle click paste
+#todo write a better tutorial for xinput
+https://unix.stackexchange.com/questions/332573/how-to-make-xinput-commands-permanent/340594
+https://unix.stackexchange.com/questions/24330/how-can-i-turn-off-middle-mouse-button-paste-functionality-in-all-programs
+
+#todo add grub editor
