@@ -103,3 +103,6 @@ grub customizer
 $ sudo dnf install grub-customizer
 
 
+thefuck
+$ sudo dnf install python-pip python-devel
+$ sudo pip install thefuck
