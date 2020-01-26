@@ -102,13 +102,20 @@ $ sudo pip install thefuck
 
 limit number of kernels
 https://www.linuxbabe.com/linux-server/list-installed-linux-kernels-remove-old-ones-fedora
-sudo vi /etc/dnf/dnf.conf
+$ sudo vi /etc/dnf/dnf.conf
 installonly_limit=2
 
 
 
 dotnet core
 https://docs.microsoft.com/pt-br/dotnet/core/install/linux-package-manager-fedora31
-sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-sudo wget -q -O /etc/yum.repos.d/microsoft-prod.repo https://packages.microsoft.com/config/fedora/31/prod.repo
-sudo dnf install dotnet-sdk-3.1
+$ sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+$ sudo wget -q -O /etc/yum.repos.d/microsoft-prod.repo https://packages.microsoft.com/config/fedora/31/prod.repo
+$ sudo dnf install dotnet-sdk-3.1
+
+
+snap
+$ sudo dnf install snapd
+
+rambox
+$ sudo snap install rambox
