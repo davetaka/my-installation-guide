@@ -44,12 +44,11 @@ $ sudo modprobe 88x2bu
 
 
 
-guake
-guake is my favorite terminal emulator, just because tabs and shortcut in quake style
-$ sudo dnf install guake
+tilix
+tilix is my favorite terminal emulator, just because tabs and shortcut in quake style and themes
+$ sudo dnf install tilix
 
-adjust configurations at your taste, i don't have any specific preferences, just the transparency
-add shortcut with guake -t
+add shortcut with tilix --quake
 with ctrl+' and ctrl+`
 
 
