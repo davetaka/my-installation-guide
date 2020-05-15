@@ -1,14 +1,14 @@
 # my fedora installation guide
 
-[Download](https://getfedora.org/en/workstation/download/) 
-actually version is **31** 
+[Download](https://getfedora.org/en/workstation/download/)  
+actually version is **31**  
 or create in fedora  
-_$ sudo dnf install liveusb-creator_   
+_$ sudo dnf install liveusb-creator_    
 
 ### nvidia
-first of all, in this laptop i have problems with fedora 31 and nvidia graphic card 
-so what i've to do is to follow this guide until remove nouveau 
-[nvidia guide](https://www.if-not-true-then-false.com/2015/fedora-nvidia-guide/)  
+first of all, in this laptop i have problems with fedora 31 and nvidia graphic card  
+so what i've to do is to follow this guide until remove nouveau  
+[nvidia guide](https://www.if-not-true-then-false.com/2015/fedora-nvidia-guide/)    
 
 the commands are: 
 _# dnf update_ 
