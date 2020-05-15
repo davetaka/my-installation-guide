@@ -2,7 +2,7 @@
 
 [Download](https://getfedora.org/en/workstation/download/) 
 actually version is **31** 
-or create in fedora 
+or create in fedora  
 _$ sudo dnf install liveusb-creator_   
 
 ### nvidia
