@@ -7,7 +7,7 @@ or create in fedora
 $ sudo dnf install liveusb-creator
 ```
 
-### nvidia
+## nvidia
 [nvidia guide](https://www.if-not-true-then-false.com/2015/fedora-nvidia-guide/)  
 first of all, in this laptop i have problems with fedora 31 and nvidia graphic card  
 so what i've to do is to follow this guide until remove nouveau    
@@ -34,7 +34,7 @@ ou
 maybe in future i'll install the nvidia drivers correctly      
 
 
-### tplink archer t3u ac1300
+## tplink archer t3u ac1300
 [driver tplink](https://github.com/cilynx/rtl88x2BU)  
 i need this because i has removed my wlan to install an external GPU, so to keep my wifi i buyed a tplink archer    
 
@@ -51,7 +51,7 @@ $ sudo dkms install -m rtl88x2bu -v ${VER}
 $ sudo modprobe 88x2bu  
 ```
     
-### tilix
+## tilix
 tilix is my favorite terminal emulator, just because tabs and shortcut in quake style and themes  
 ```console
 $ sudo dnf install tilix    
@@ -63,7 +63,7 @@ with ctrl+' and ctrl+`
 ```
     
 
-### shortcuts
+## shortcuts
 hide all windows = super+d  
 nautilus = super+e  
 gnome-system-monitor = ctrl+shift+esc      
@@ -71,13 +71,13 @@ gnome-system-monitor = ctrl+shift+esc
 
 **enable third party repositories**    
 
-### chrome
+## chrome
 can be installed via software app  
 ```console
 $ sudo dnf remove firefox  
 ```
     
-### vscode
+## vscode
 ```console
 $ sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc  
 $ sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'  
@@ -85,35 +85,35 @@ $ sudo dnf check-update
 $ sudo dnf install code  
 ```
     
-### gnome-tweakes
+## gnome-tweakes
 ```console
 $ sudo dnf install gnome-tweaks  
 ```
     
 
-### alternate tab
+## alternate tab
 install via software app alternateTab      
 
 
 
-### dash to panel
+## dash to panel
 install via software app dashToPanel      
 
 
 
-### grub customizer
+## grub customizer
 ```console
 $ sudo dnf install grub-customizer  
 ```
     
-### thefuck
+## thefuck
 [thefuck git](https://github.com/nvbn/thefuck)  
 ```console
 $ sudo dnf install python-pip python-devel  
 $ sudo pip install thefuck  
 ```
     
-### limit number of kernels
+## limit number of kernels
 [guide for limit kernels](https://www.linuxbabe.com/linux-server/list-installed-linux-kernels-remove-old-ones-fedora)  
 ```console
 $ sudo vi /etc/dnf/dnf.conf  
@@ -122,7 +122,7 @@ installonly_limit=2
 
 
 
-### dotnet core
+## dotnet core
 [download dotnet core for fedora](https://docs.microsoft.com/pt-br/dotnet/core/install/linux-package-manager-fedora31)  
 ```console
 $ sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc  
@@ -131,12 +131,12 @@ $ sudo dnf install dotnet-sdk-3.1
 ```
     
 
-### snap
+## snap
 ```console
 $ sudo dnf install snapd  
 ```
     
-### rambox
+## rambox
 ```console
 $ sudo snap install rambox
 ```
