@@ -8,9 +8,9 @@ $ sudo dnf install liveusb-creator
 ```
 
 ### nvidia
+[nvidia guide](https://www.if-not-true-then-false.com/2015/fedora-nvidia-guide/)  
 first of all, in this laptop i have problems with fedora 31 and nvidia graphic card  
-so what i've to do is to follow this guide until remove nouveau  
-[nvidia guide](https://www.if-not-true-then-false.com/2015/fedora-nvidia-guide/)    
+so what i've to do is to follow this guide until remove nouveau    
 
 the commands are:  
 ```console
@@ -35,8 +35,8 @@ maybe in future i'll install the nvidia drivers correctly
 
 
 ### tplink archer t3u ac1300
-i need this because i has removed my wlan to install an external GPU, so to keep my wifi i buyed a tplink archer  
-[driver tplink](https://github.com/cilynx/rtl88x2BU)    
+[driver tplink](https://github.com/cilynx/rtl88x2BU)  
+i need this because i has removed my wlan to install an external GPU, so to keep my wifi i buyed a tplink archer    
 
 clone repo  
 install dkms and make if not already installed    
@@ -107,13 +107,12 @@ $ sudo dnf install grub-customizer
 ```
     
 ### thefuck
+[thefuck git](https://github.com/nvbn/thefuck)  
 ```console
 $ sudo dnf install python-pip python-devel  
 $ sudo pip install thefuck  
 ```
-[thefuck git](https://github.com/nvbn/thefuck)      
-
-
+    
 ### limit number of kernels
 [guide for limit kernels](https://www.linuxbabe.com/linux-server/list-installed-linux-kernels-remove-old-ones-fedora)  
 ```console
