@@ -3,7 +3,9 @@
 [download fedora](https://getfedora.org/en/workstation/download/)  
 actually version is **31**  
 or create in fedora  
-_$ sudo dnf install liveusb-creator_    
+```console
+$ sudo dnf install liveusb-creator
+```
 
 ### nvidia
 first of all, in this laptop i have problems with fedora 31 and nvidia graphic card  
