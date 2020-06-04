@@ -1,10 +1,10 @@
-# my fedora installation guide
+# ~~my fedora installation guide~~
 
 ~~[download fedora](https://getfedora.org/en/workstation/download/)~~
-actually version is **31**  
-or create in fedora  
+~~actually version is **31**~~  
+~~or create in fedora~~  
 ```console
-$ sudo dnf install liveusb-creator
+~~$ sudo dnf install liveusb-creator~~
 ```
 
 ## nvidia
