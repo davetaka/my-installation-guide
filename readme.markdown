@@ -1,4 +1,4 @@
-# my fedora installation guide
+# my fedora installation guide (deprecated)
 
 [download fedora](https://getfedora.org/en/workstation/download/)  
 actually version is **31**  
