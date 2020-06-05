@@ -1,11 +1,11 @@
 # my pop!os installation guide
 
 [download pop!os](https://pop.system76.com/)  
-i choose non nvidia drivers version, but this drivers can be installed pop shop  
+i chose non nvidia drivers version, but this drivers can be installed via pop shop  
   
 ## tplink archer t3u ac1300
 [driver tplink](https://github.com/cilynx/rtl88x2BU)  
-i need this because i has removed my wlan to install an external GPU, so to keep my wifi i buyed a tplink archer  
+i need this because i removed my wlan to install an external GPU, so to keep my wifi i bought a tplink archer  
   
 clone repo  
 install dkms and make if not already installed  
@@ -22,7 +22,7 @@ $ sudo modprobe 88x2bu
   
   
 ## tilix
-tilix is my favorite terminal emulator, just because tabs and shortcut in quake style and themes  
+tilix is my favorite terminal emulator, just because split and shortcut in quake style and themes  
 ```console
 $ sudo apt-get install tilix  
 ```
@@ -42,7 +42,7 @@ gnome-system-monitor = ctrl+shift+esc
 ## chrome
 i'm using chrome in linux because default chrome comes with proprietary audio and video codecs  
   
-[download chrome](https://www.google.com.br/chrome/)
+[download chrome](https://www.google.com.br/chrome/)  
 i prefer .deb install over repository install because chrome need a proprietary repository  
 and update verifications is affected with several repositories added  
   
