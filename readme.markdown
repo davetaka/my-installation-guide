@@ -42,7 +42,7 @@ gnome-system-monitor = ctrl+shift+esc
 ## chrome
 i'm using chrome in linux because default chrome comes with proprietary audio and video codecs  
   
-[chrome](https://www.google.com.br/chrome/)
+[download chrome](https://www.google.com.br/chrome/)
 i prefer .deb install over repository install because chrome need a proprietary repository  
 and update verifications is affected with several repositories added  
   
@@ -105,4 +105,24 @@ $ sudo apt-get install snapd
 ## rambox
 ```console
 $ sudo snap install rambox
+```
+  
+  
+## docker
+[docker install](https://docs.docker.com/engine/install/ubuntu/)  
+```console
+$ sudo apt-get remove docker docker-engine docker.io containerd runc  
+$ sudo apt-get update  
+$ sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common  
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -  
+$ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"  
+$ sudo apt-get update  
+$ sudo apt-get install docker-ce docker-ce-cli containerd.io  
+```
+  
+[post-install](https://docs.docker.com/engine/install/linux-postinstall/)  
+```console
+$ sudo groupadd docker  
+$ newgrp docker  
+$ sudo usermod -aG docker $USER  
 ```
