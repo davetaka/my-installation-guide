@@ -126,3 +126,11 @@ $ sudo groupadd docker
 $ newgrp docker  
 $ sudo usermod -aG docker $USER  
 ```
+
+## local time
+[explanation for local time](https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/)  
+to end linux and windows clock war  
+  
+```console
+$ timedatectl set-local-rtc 1 --adjust-system-clock  
+```
