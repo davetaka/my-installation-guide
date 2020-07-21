@@ -93,6 +93,20 @@ $ sudo snap install rambox
   
 ### vscode
 in this distro vscode can be installed via pop shop  
+to install my current extensions:  
+```console
+$ code --install-extension alefragnani.Bookmarks
+$ code --install-extension alexcvzz.vscode-sqlite
+$ code --install-extension joaompinto.vscode-graphviz
+$ code --install-extension ms-python.python
+$ code --install-extension patbenatar.advanced-new-file
+$ code --install-extension VisualStudioExptTeam.vscodeintellicode
+$ code --install-extension zhuangtongfa.material-theme
+```
+*the command above was provided by this command:*  
+```console
+$ code --list-extensions | xargs -L 1 echo code --install-extension
+```
   
 ### thefuck
 [thefuck github](https://github.com/nvbn/thefuck)  
