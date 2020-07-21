@@ -1,14 +1,14 @@
 # my pop!os installation guide
 
 [download pop!os](https://pop.system76.com/)  
-i chose non nvidia drivers version, but this drivers can be installed via pop shop  
+i have chosen non nvidia drivers version, but this drivers can be installed via pop shop  
   
 ## tplink archer t3u ac1300
 [driver tplink](https://github.com/cilynx/rtl88x2BU)  
-i need this because i removed my wlan to install an external GPU, so to keep my wifi i bought a tplink archer  
+i removed my wlan to install an external GPU, so to keep my wifi i bought a tplink archer  
   
 clone repo  
-install dkms and make if not already installed  
+install "dkms" and "make" if they already aren't installed  
   
 ```console
 $ cd rtl88x2bu  
@@ -22,7 +22,7 @@ $ sudo modprobe 88x2bu
   
   
 ## tilix
-tilix is my favorite terminal emulator, just because split and shortcut in quake style and themes  
+tilix is my favorite terminal emulator until now, due to its split screen mode, shortcut in quake style and themes  
 ```console
 $ sudo apt-get install tilix  
 ```
@@ -40,11 +40,11 @@ gnome-system-monitor = ctrl+shift+esc
   
   
 ## chrome
-i'm using chrome in linux because default chrome comes with proprietary audio and video codecs  
+default chrome comes with proprietary audio and video codecs to make navigation easier  
   
 [download chrome](https://www.google.com.br/chrome/)  
-i prefer .deb install over repository install because chrome need a proprietary repository  
-and update verifications is affected with several repositories added  
+i prefer .deb install over repository install because it needs a proprietary repository  
+and update verifications time is affected when have several repositories added  
   
 remove firefox  
 ```console
@@ -53,7 +53,7 @@ $ sudo apt-get remove firefox
   
   
 ## vim
-to keep sanity install vim  
+to keep sanity install vim, the old vi shortcuts and concepts are hard to use  
 ```console
 $ sudo apt-get install vim
 ```
@@ -69,14 +69,17 @@ in this distro gnome-tweaks can be installed via pop shop
   
 ## alternate tab
 [alternateTab](https://extensions.gnome.org/extension/15/alternatetab/)  
+makes alt+tab windows-like  
   
   
 ## dash to panel
 [dashToPanel](https://extensions.gnome.org/extension/1160/dash-to-panel/)  
+puts taskbar in bottom, and add a start button  
   
   
 ## thefuck
 [thefuck git](https://github.com/nvbn/thefuck)  
+it's a great extension to correct and execute commands when it was spelled wrong
 ```console
 $ sudo apt update
 $ sudo apt install python3-dev python3-pip python3-setuptools
@@ -129,7 +132,7 @@ $ sudo usermod -aG docker $USER
 
 ## local time
 [explanation for local time](https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/)  
-to end linux and windows clock war  
+to put an end in linux and windows clock fighting  
   
 ```console
 $ timedatectl set-local-rtc 1 --adjust-system-clock  
